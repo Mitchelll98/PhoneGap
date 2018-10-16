@@ -29,9 +29,10 @@ function updateDisplay() {
         
         
         window.localstorage.setItem(key, value);
-        window.localstorage.getItem(key);
+        Output = window.localstorage.getItem(key);
         
-        alert("Stored Key: " + Output);
+        alert("Stored Key: ");
+        alert(Output);
         
         
         
