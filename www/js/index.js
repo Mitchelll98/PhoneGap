@@ -32,7 +32,7 @@ function updateDisplay() {
         
         window.localstorage.setItem(key, value);
         
-        alert("Retreived Value: " + window.localstorage.getItem('firstname'));
+        alert("Retreived Value: " + window.localstorage.getItem("firstname"));
         
     }
 
