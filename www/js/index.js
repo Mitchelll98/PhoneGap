@@ -28,10 +28,12 @@ function updateDisplay() {
         
         alert("device ready");
         alert("Stored Key: ");
-        alert("Stored Value: " + Value);
+        alert("Stored Value: " + value);
         
         window.localstorage.setItem(key, value);
-        var Output = window.localstorage.getItem(key);
+        
+        
+        var Output = window.localstorage.getItem('firstname');
         
         alert(Output);
         
