@@ -4,7 +4,8 @@ var launched_count = 0;
 
 var key = "firstname";
 var value = "Luke";
-var Output;
+
+
 document.addEventListener("deviceready", onDeviceReady, false);
 		
 	
@@ -26,15 +27,12 @@ function updateDisplay() {
         updateDisplay();
         
         alert("device ready");
-        
-        
-        window.localstorage.setItem(key, value);
-        Output = window.localstorage.getItem(key);
-        
         alert("Stored Key: ");
+        
+        window.localstorage.setItem('key', 'value');
+        var Output = window.localstorage.getItem('key');
+        
         alert(Output);
-        
-        
         
     }
 
