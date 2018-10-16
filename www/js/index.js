@@ -2,8 +2,8 @@ var paused_count =0;
 var resumed_count = 0;
 var launched_count = 0;
 
-var key = "firstname"
-var value = "Luke"
+var key = "firstname";
+var value = "Luke";
 
 document.addEventListener("deviceready", onDeviceReady, false);
 		
